@@ -24,7 +24,7 @@ export default function Login() {
       <Text style={styles.welcomeText}>Welcome to EduBox</Text>
       <Text style={{textAlign: 'center', marginTop: 80, fontSize: 20}}>Login/SignUp</Text>
 
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={promptAsync()}>
       <AntDesign name="google" size={24} color="white" style={{marginRight: 10}}/>
         <Text style={{color:Colors.white}}>Sign In With Google</Text>
       </TouchableOpacity>

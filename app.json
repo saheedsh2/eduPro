@@ -2,8 +2,8 @@
   "expo": {
     "name": "educationApp",
     "slug": "educationApp",
-    "version": "1.0.0",
     "scheme": "edubox",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
